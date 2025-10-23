@@ -29,19 +29,21 @@
     position: relative;
     margin-top: -7%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     place-items: center;
-
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 50px;
 }
 /* For tablets (up to 1024px) */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .category_Container {
     grid-template-columns: repeat(2, 1fr);
   }
-}
+} */
 
-/* For medium screens (up to 798px) */
+/* For medium screens (up to 798px)
 @media (max-width: 798px) {
   .category_Container {
     grid-template-columns: 1fr;
@@ -57,9 +59,8 @@
 }
 
 /* For very small screens (mobile) */
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .category {
     width: 100%;
     font-size: 14px;
-  }
-}
+  } */
