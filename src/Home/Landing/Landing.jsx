@@ -3,7 +3,7 @@ import React from 'react'
 
 // import Product from './components/Product/Product'
 // import LayOut from '../../components/LayOut/LayOut'
-import Carousel from '../../components/carousel/Carousel'
+import CarouselEffect from '../../components/Carousel/CarouselEffect'
 import Category from '../../components/Category/Category'
 import Product from '../../components/Product/Product'
 
@@ -15,7 +15,7 @@ const Landing = () => {
   return (
     <>
          {/* <LayOut> */}
-            <Carousel />
+            <CarouselEffect />
             <Category /> 
             <Product />
        
